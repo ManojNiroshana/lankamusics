@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="images/favicon.gif">
+        <title>Lanka Musics</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- Bootstrap Core CSS -->
+        <link href="public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+        <link href="public/css/bootstrap-grid.min.css" rel='stylesheet' type='text/css' />
+        <link href="public/css/bootstrap-reboot.min.css" rel='stylesheet' type='text/css' />
+        <!-- Custom CSS -->
+        <link href="public/css/style.css" rel='stylesheet' type='text/css' />
+        <!-- Graph CSS -->
+        <link href="public/css/font-awesome.css" rel="stylesheet"> 
+        <!-- jQuery -->
+
+        <link rel="stylesheet" href="public/css/icon-font.min.css" type='text/css' />
+
+        <link href="public/css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="public/js/wow.min.js"></script>
+        <script src="public/js/jquery.js"></script>
+        <script src="public/js/Chart.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+        <!-- Google Adsens -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3042900440587424",
+                    enable_page_level_ads: true
+            });
+        </script>
+    </head>
+    <body class="sticky-header left-side-collapsed"  onload="initMap()">
+        <section>
+            <!-- left side start-->
+            <div class="left-side sticky-left-side">
+            </div>
+            <!-- left side end-->
+
+            <!-- main content start-->
+            <div class="main-content">
+                <!-- header-starts -->
+                <div class="header-section">
+
+                    <!--toggle button start-->
+                    <a class="toggle-btn  menu-collapsed"><i class="fa fa-bars"></i></a>
+                    <!--toggle button end-->
+
+                    <!--notification menu start -->
+
+                    <!--notification menu end -->
+                </div>
+
+                <!-- //header-ends -->
+                <div id="page-wrapper" >
+                    <div id="demo"></div>
+                    <div style="left: 42.5% ;top: 25%; position: absolute"><img src="images/live.gif"></div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons" style="left: 45%;top: 50%; position: absolute">
+                        <label class="btn btn-secondary active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> <
+                        </label>
+                        <label class="btn btn-secondary" onclick="playVideo()">
+
+                            <input type="radio" name="options" id="option2" autocomplete="off" > Play
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="option3" autocomplete="off"> >
+                        </label>
+                    </div>
+
+                </div>
+
+            </div>
+            <script>
+                function playVideo() {
+                document.getElementById('demo').innerHTML = "<video autoplay='true' width='0' controls><source src='videos/Bathkooro-Dasun Madushan.mp3' type='video/mp4'></video>";
+                }
+            </script>
+            <!--footer section start-->
+            <footer>
+                <p>&copy 2018 Developed by <strong>ETX-X</strong></p>
+            </footer>
+            <!--footer section end-->
+
+            <!-- main content end-->
+        </section>
+
+
+        <script src="public/js/jquery.nicescroll.js"></script>
+
+        <script src="public/js/scripts.js"></script>
+        <script src="public/js/bootstrap.bundle.min.js"></script>
+        <script src="public/js/bootstrap.min.js"></script>
+    </body>
+</html>
